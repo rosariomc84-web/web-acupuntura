@@ -367,7 +367,7 @@
             </div>
         </section>
 
-        <!-- Contact & Interactive Reservation Section -->
+<!-- Contact & Interactive Reservation Section -->
         <section id="contacto" class="py-28 px-6 bg-zen-900 relative">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-16">
@@ -377,26 +377,27 @@
                 </div>
 
                 <div class="bg-zen-800/80 border border-white/10 rounded-3xl p-8 sm:p-12 shadow-2xl">
-                    <form id="booking-form" class="space-y-6">
+                    <!-- El formulario apunta correctamente al Webhook de Make y usa el atributo name en los campos -->
+                    <form action="https://hook.eu1.make.com/ncq4yssrbszikjauz4nneu3082y34ihz" method="POST" id="booking-form" class="space-y-6">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Nombre completo *</label>
-                                <input type="text" id="name" required class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm" placeholder="Tu nombre">
+                                <input type="text" name="Name" id="name" required class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm" placeholder="Tu nombre">
                             </div>
                             <div>
                                 <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Teléfono de contacto *</label>
-                                <input type="tel" id="phone" required class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm" placeholder="+34 600 000 000">
+                                <input type="tel" name="Phone" id="phone" required class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm" placeholder="+34 600 000 000">
                             </div>
                         </div>
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Correo electrónico *</label>
-                                <input type="email" id="email" required class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm" placeholder="tu@correo.com">
+                                <input type="email" name="Email" id="email" required class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm" placeholder="tu@correo.com">
                             </div>
                             <div>
                                 <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Tratamiento de interés *</label>
-                                <select id="treatment" class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm">
+                                <select name="Treatment" id="treatment" class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm">
                                     <option value="ansiedad">Ansiedad y Estrés (1h 30min - 60€)</option>
                                     <option value="hormonal">Desajustes Hormonales Femeninos (1h 30min - 60€)</option>
                                     <option value="muscular">Lesiones Musculares y Dolor (1h - 60 €)</option>
@@ -407,7 +408,7 @@
 
                         <div>
                             <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Comentarios o síntomas principales (Opcional)</label>
-                            <textarea id="message" rows="4" class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm resize-none" placeholder="Cuéntanos brevemente qué te motivó a solicitar la sesión..."></textarea>
+                            <textarea name="Message" id="message" rows="4" class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm resize-none" placeholder="Cuéntanos brevemente qué te motivó a solicitar la sesión..."></textarea>
                         </div>
 
                         <div class="p-4 rounded-xl bg-zen-900/60 border border-white/5 flex items-center justify-between text-xs text-zen-100/70">
@@ -422,8 +423,9 @@
                             Enviar Solicitud de Cita
                             <i data-lucide="send" class="w-4 h-4"></i>
                         </button>
-                    <form action="https://hook.eu1.make.com/ncq4yssrbszikjauz4nneu3082y34ihz" method="POST" id="booking-form" class="space-y-6">
-                    <!-- Success Message Box (Hidden by default, no alert()) -->
+                    </form>
+
+                    <!-- Success Message Box (Hidden by default) -->
                     <div id="success-box" class="hidden mt-6 p-6 rounded-2xl bg-zen-jade/10 border border-zen-jade/30 text-center animate-fadeIn">
                         <div class="w-12 h-12 rounded-full bg-zen-jade/20 text-zen-jade flex items-center justify-center mx-auto mb-3">
                             <i data-lucide="check" class="w-6 h-6"></i>
@@ -434,9 +436,8 @@
                 </div>
             </div>
         </section>
-    </main>
 
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="bg-[#101412] border-t border-white/5 py-16 px-6">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
             <div class="md:col-span-2">
@@ -450,6 +451,18 @@
                     Especialista en medicina tradicional y bienestar consciente. Diseñado para devolver al cuerpo su equilibrio físico y mental natural.
                 </p>
             </div>
+
+            <div>
+                <h4 class="font-serif text-zen-100 mb-4 text-sm uppercase tracking-wider">Enlaces Rápidos</h4>
+                <ul class="space-y-2 text-sm text-zen-100/60 font-light">
+                    <li><a href="#tratamientos" class="hover:text-zen-jade transition-colors">Tratamientos</a></li>
+                    <li><a href="#tarifas" class="hover:text-zen-jade transition-colors">Tarifas (60€)</a></li>
+                    <li><a href="#Sobre-mi" class="hover:text-zen-jade transition-colors">Nuestro Enfoque</a></li>
+                    <li><a href="#faqs" class="hover:text-zen-jade transition-colors">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+
+            <div>
                 <h4 class="font-serif text-zen-100 mb-4 text-sm uppercase tracking-wider">Horario y Contacto</h4>
                 <ul class="space-y-2 text-sm text-zen-100/60 font-light">
                     <li>Lunes a Viernes: 16:00 - 22:00</li>
@@ -462,9 +475,9 @@
         </div>
 
         <div class="max-w-7xl mx-auto pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-zen-100/40">
-            <p>&copy; 2024 MADRIDSANA Acupuntura. Todos los derechos reservados.</p>
+            <p>&copy; 2026 MADRIDSANA Acupuntura. Todos los derechos reservados.</p>
             <div class="flex gap-4 mt-4 sm:mt-0">
-                <a href="#" class="hover:text-zen-jade transition-colors">Polí­tica de Privacidad</a>
+                <a href="#" class="hover:text-zen-jade transition-colors">Política de Privacidad</a>
                 <a href="#" class="hover:text-zen-jade transition-colors">Aviso Legal</a>
             </div>
         </div>
@@ -497,29 +510,9 @@
                 const content = toggle.nextElementSibling;
                 const icon = toggle.querySelector('i');
                 
-                // Toggle current
                 content.classList.toggle('hidden');
                 icon.style.transform = content.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
             });
-  });
-
-        // Booking form submission handler (No alert(), using custom UI feedback)
-        const bookingForm = document.getElementById('booking-form');
-        const successBox = document.getElementById('success-box');
-
-        bookingForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // Hide form inputs or show success box with animation
-            bookingForm.style.opacity = '0.4';
-            bookingForm.style.pointerEvents = 'none';
-            successBox.classList.remove('hidden');
-            
-            // Re-initialize icons inside success box
-            lucide.createIcons();
-            
-            // Scroll smoothly to success box
-            successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         });
     </script>
 </body>
