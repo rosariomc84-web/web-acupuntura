@@ -423,8 +423,7 @@
                             Enviar Solicitud de Cita
                             <i data-lucide="send" class="w-4 h-4"></i>
                         </button>
-                    </form>
-
+                    <form action="https://hook.eu1.make.com/ncq4yssrbszikjauz4nneu3082y34ihz" method="POST" id="booking-form" class="space-y-6">
                     <!-- Success Message Box (Hidden by default, no alert()) -->
                     <div id="success-box" class="hidden mt-6 p-6 rounded-2xl bg-zen-jade/10 border border-zen-jade/30 text-center animate-fadeIn">
                         <div class="w-12 h-12 rounded-full bg-zen-jade/20 text-zen-jade flex items-center justify-center mx-auto mb-3">
