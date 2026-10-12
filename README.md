@@ -76,7 +76,7 @@
             <nav class="hidden md:flex items-center gap-8 text-sm font-light text-zen-100/80">
                 <a href="#tratamientos" class="hover:text-zen-jade transition-colors">Tratamientos</a>
                 <a href="#tarifas" class="hover:text-zen-jade transition-colors">Precios</a>
-                <a href="#sobre-mi" class="hover:text-zen-jade transition-colors">La Sesión. Enfoque</a>
+                <a href="#sobre-mi" class="hover:text-zen-jade transition-colors">La Sesión</a>
                 <a href="#faqs" class="hover:text-zen-jade transition-colors">FAQs</a>
             </nav>
 
@@ -117,23 +117,23 @@
 
             <div class="max-w-5xl mx-auto px-6 text-center relative z-10 py-20">
                 <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-zen-jade text-xs uppercase tracking-widest mb-8">
-                    <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                    <i data-lucide="sparkles" class="w-3.5 h-3.5">
                     Medicina Tradicional & Bienestar Profundo
                 </div>
                 
                 <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-normal leading-tight tracking-tight mb-8 text-zen-100">
-                    Restablece tu armonía interior <br class="hidden sm:inline">a través de la <span class="italic text-zen-jade">acupuntura consciente</span>.
+                    Restablece tu armonía interior<br class="hidden sm:inline">a través de la <span class="italic text-zen-jade">acupuntura</span>.
                     </h1>
                     Equilibra tu energía, <br><span class="italic text-zen-600">recupera tu bienestar</span>.
                     </h1>
 
                 <p class="max-w-2xl mx-auto text-lg sm:text-xl text-zen-100/70 font-light leading-relaxed mb-12">
-                    Un espacio de calma sobria para sanar desde la raíz. Tratamientos personalizados orientados a equilibrar tu sistema nervioso, regular tu bienestar hormonal y liberar tensiones profundas. Tratamientos especializados de acupuntura orientados a devolver la armonía profunda, sanando desde la raíz.
+                    Un espacio de calma sobria para sanar desde la raíz. Tratamientos personalizados orientados a equilibrar tu sistema nervioso, regular tu bienestar hormonal y liberar tensiones profundas. Devuelve la armonía profunda a tu vida.
                 </p>
 
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a href="#contacto" class="w-full sm:w-auto px-8 py-4 rounded-full bg-zen-jade text-zen-900 font-medium hover:bg-zen-jade/90 transition-all shadow-lg shadow-zen-jade/10 flex items-center justify-center gap-2">
-                        Reservar Sesión (50â‚¬)
+                        Reservar Sesión (50€)
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                     <a href="#tratamientos" class="w-full sm:w-auto px-8 py-4 rounded-full border border-white/20 hover:border-zen-jade text-zen-100 hover:text-zen-jade font-medium transition-all flex items-center justify-center gap-2">
@@ -147,8 +147,8 @@
                         <p class="text-xs text-zen-100/60 uppercase tracking-widest mt-1">Sesión Profunda</p>
                     </div>
                     <div>
-                        <p class="text-2xl md:text-3xl font-serif text-zen-jade">60 €‚¬</p>
-                        <p class="text-xs text-zen-100/60 uppercase tracking-widest mt-1">Tarifa única</p>
+                        <p class="text-2xl md:text-3xl font-serif text-zen-jade">60 €</p>
+                        <p class="text-xs text-zen-100/60 uppercase tracking-widest mt-1">Tarifa Única</p>
                     </div>
                     <div class="col-span-2 md:col-span-1">
                         <p class="text-2xl md:text-3xl font-serif text-zen-jade">100%</p>
@@ -178,12 +178,12 @@
                             </div>
                             <h3 class="text-2xl font-serif mb-4 text-zen-100">Ansiedad y Estrés</h3>
                             <p class="text-zen-100/70 font-light leading-relaxed mb-6 text-sm">
-                                Regulación profunda del sistema nervioso autónomo. Diseñado para calmar la mente hiperactiva, reducir niveles de cortisol, disminuir los estados de alerta crónicos y la taquicardia tensional y mejorar la calidad del sueño favoreciendo un descanso nocturno profundo y reparador.
+                                Regulación profunda del sistema nervioso autónomo. Diseñado para calmar la mente hiperactiva, reducir niveles de cortisol, disminuir los estados de alerta crónicos y la taquicardia tensional. Mejora la calidad del sueño favoreciendo un descanso nocturno profundo y reparador.
                             </p>
                         </div>
                         <ul class="space-y-2 border-t border-white/5 pt-4 text-xs text-zen-100/60">
-                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>✓ Reducción de taquicardias e hipervigilancia</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>✓ Disminución del cortisol</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>Disminución del cortisol</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>Mejora el insomnio</li>
                         </ul>
                     </div>
 
@@ -195,12 +195,12 @@
                             </div>
                             <h3 class="text-2xl font-serif mb-4 text-zen-100">Desajustes Hormonales Femeninos</h3>
                             <p class="text-zen-100/70 font-light leading-relaxed mb-6 text-sm">
-                                Armonización del ciclo menstrual, soporte en procesos de fertilidad y acompañamiento integral en etapas de transición como perimenopausia y menopausia, aliviando síntomas y malestares asociados como ciclos irregulares o con dolor. Optimización del equilibrio endocrino femenino de forma natural.
+                                Armonización del ciclo menstrual, soporte en procesos de fertilidad y acompañamiento integral en etapas de transición como perimenopausia y menopausia, aliviando síntomas como irratabilidad o climaterio y sus malestares asociados. Optimización del equilibrio endocrino femenino de forma natural.
                             </p>
                         </div>
                         <ul class="space-y-2 border-t border-white/5 pt-4 text-xs text-zen-100/60">
-                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>✓ Reducción de sofocos y fatiga</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>✓ Soporte integral para fertilidad y bienestar</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>Reducción de sofocos y fatiga</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>Soporte integral para fertilidad y bienestar</li>
                         </ul>
                     </div>
 
@@ -210,14 +210,14 @@
                             <div class="w-14 h-14 rounded-xl bg-zen-jade/10 border border-zen-jade/20 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
                                 <i data-lucide="activity" class="w-7 h-7 text-zen-jade"></i>
                             </div>
-                            <h3 class="text-2xl font-serif mb-4 text-zen-100">Lesiones Musculares y Dolor</h3>
+                            <h3 class="text-2xl font-serif mb-4 text-zen-100">Lesiones Musculares y Articulatorios </h3>
                             <p class="text-zen-100/70 font-light leading-relaxed mb-6 text-sm">
-                                Alivio efectivo del dolor crónico y agudo. Liberación miofascial profunda, reducción rápida de la inflamación localizada, contracturas persistentes, cervicalgias, lumbalgias y aceleración de los procesos naturales de recuperación física.
+                                Alivio efectivo del dolor crónico y agudo. Liberación miofascial profunda, reducción rápida de la inflamación localizada, contracturas persistentes, cervicalgias, lumbalgias, hombros, rodillas, cadera y aceleración de los procesos naturales de recuperación física.
                             </p>
                         </div>
                         <ul class="space-y-2 border-t border-white/5 pt-4 text-xs text-zen-100/60">
-                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>✓ Efecto analgésico inmediato</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>✓ Recuperación de la movilidad articular</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>Efecto analgésico inmediato</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-zen-jade"></i>Recuperación de la movilidad articular</li>
                         </ul>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div>
                             <span class="text-zen-jade text-xs uppercase tracking-widest block mb-3">Transparencia y Calidad</span>
-                            <h2 class="text-3xl sm:text-4xl font-serif mb-6">Tarifa Clara y DedicaciÃ³n Plena</h2>
+                            <h2 class="text-3xl sm:text-4xl font-serif mb-6">Tarifa Clara y Dedicación Plena</h2>
                             <p class="text-zen-100/70 font-light leading-relaxed mb-6 text-sm">
                                 Creo en un servicio sin prisas, donde cada paciente recibe un espacio exclusivo y atención absoluta. Cada paciente es único. Dedicando el tiempo necesario para comprender el origen de tu desequilibrio.
                 </p>
@@ -279,11 +279,11 @@
             <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 relative">
-                        <img src="https://placehold.co/600x750/1F2421/EAEFE9?text=Acupuntura+Profesional" alt="Consulta de Rosario Moreno Campo" class="w-full h-full object-cover grayscale opacity-80 hover:opacity-100 transition-opacity duration-500">
+                        <img src="https://placehold.co/600x750/1F2421/EAEFE9?text=Acupuntora+Rosario+Moreno+Especialista+en+Acupuntura,+Naturopatia+y+Maderoterapía+facial" alt="Consulta de Acupuntura" class="w-full h-full object-cover grayscale opacity-80 hover:opacity-100 transition-opacity duration-500">
                     </div>
                     <div class="absolute -bottom-6 -right-6 bg-zen-800 border border-white/10 p-6 rounded-2xl shadow-xl hidden sm:block max-w-xs">
                         <p class="font-serif italic text-sm text-zen-100/90 mb-2">"Sanar es un arte que consiste en restablecer el flujo natural de la energía vital."</p>
-                        <span class="text-xs uppercase tracking-widest text-zen-jade font-sans block">Especialista en Acupuntura, Naturopatía y Maderoterapía facial</span>
+                        <span class="text-xs uppercase tracking-widest text-zen-jade font-sans block">Paul Nogier</span>
                     </div>
                 </div>
 
@@ -324,7 +324,7 @@
                     <!-- FAQ 1 -->
                     <div class="bg-zen-900 border border-white/10 rounded-2xl overflow-hidden transition-all">
                         <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between font-serif text-lg text-zen-100 hover:text-zen-jade focus:outline-none">
-                            <span>Â¿Duele la aplicación de las agujas de acupuntura?</span>
+                            <span>¿Duele la aplicación de las agujas de acupuntura?</span>
                             <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
                         </button>
                         <div class="faq-content hidden px-6 pb-6 text-zen-100/70 font-light text-sm leading-relaxed border-t border-white/5 pt-4">
@@ -335,18 +335,18 @@
                     <!-- FAQ 2 -->
                     <div class="bg-zen-900 border border-white/10 rounded-2xl overflow-hidden transition-all">
                         <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between font-serif text-lg text-zen-100 hover:text-zen-jade focus:outline-none">
-                            <span>Â¿Cómo debo prepararme para la primera sesión de 1h 30min?</span>
+                            <span>¿Cómo debo prepararme para la primera sesión de 1h 30min?</span>
                             <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
                         </button>
                         <div class="faq-content hidden px-6 pb-6 text-zen-100/70 font-light text-sm leading-relaxed border-t border-white/5 pt-4">
-                            Te recomendamos acudir con ropa cómoda y holgada que permita acceder fácilmente a brazos y piernas. Es aconsejable no acudir con el estómago demasiado lleno ni en ayunas.
+                            Te recomendamos acudir con ropa cómoda y holgada que permita acceder fácilmente a brazos y piernas. Es aconsejable no acudir con el estómago demasiado lleno ni en ayunas o habiendo consumido estupefacientes o alcohol previamente.
                         </div>
                     </div>
 
                     <!-- FAQ 3 -->
                     <div class="bg-zen-900 border border-white/10 rounded-2xl overflow-hidden transition-all">
                         <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between font-serif text-lg text-zen-100 hover:text-zen-jade focus:outline-none">
-                            <span>Â¿Cuántas sesiones son necesarias para notar mejorí­a?</span>
+                            <span>¿Cuántas sesiones son necesarias para notar mejorí­a?</span>
                             <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
                         </button>
                         <div class="faq-content hidden px-6 pb-6 text-zen-100/70 font-light text-sm leading-relaxed border-t border-white/5 pt-4">
@@ -357,11 +357,11 @@
                     <!-- FAQ 4 -->
                     <div class="bg-zen-900 border border-white/10 rounded-2xl overflow-hidden transition-all">
                         <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between font-serif text-lg text-zen-100 hover:text-zen-jade focus:outline-none">
-                            <span>Â¿Se puede combinar con tratamientos médicos convencionales?</span>
+                            <span>¿Se puede combinar con tratamientos médicos convencionales?</span>
                             <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
                         </button>
                         <div class="faq-content hidden px-6 pb-6 text-zen-100/70 font-light text-sm leading-relaxed border-t border-white/5 pt-4">
-                            Sí, totalmente. La acupuntura es una terapia integrativa excelente que complementa y potencia la medicina alopática, ayudando a reducir efectos secundarios de fármacos y acelerando los procesos de recuperación general.
+                            Sí, absolutamente. La acupuntura es una terapia integrativa excelente que complementa y potencia la medicina alopática, ayudando a reducir efectos secundarios de fármacos y acelerando los procesos de recuperación general.
                         </div>
                     </div>
                 </div>
@@ -374,7 +374,7 @@
                 <div class="text-center mb-16">
                     <span class="text-zen-jade text-xs uppercase tracking-widest block mb-3">Comienza tu proceso de sanación</span>
                     <h2 class="text-3xl sm:text-5xl font-serif mb-4">Reserva tu Sesión</h2>
-                    <p class="text-zen-100/70 font-light text-sm">Completa el formulario y nos pondremos en contacto contigo a la mayor brevedad para confirmar fecha y hora.</p>
+                    <p class="text-zen-100/70 font-light text-sm">Completa el formulario y nos pondremos en contacto contigo a la mayor brevedad para confirmar fecha y hora. También, puedes llamar al teléfono 679.447.602 o escribir un correo electrónico a acupunturaprofesionalmadrid@gmail.com</p>
                 </div>
 
                 <div class="bg-zen-800/80 border border-white/10 rounded-3xl p-8 sm:p-12 shadow-2xl">
@@ -398,16 +398,16 @@
                             <div>
                                 <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Tratamiento de interés *</label>
                                 <select id="treatment" class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm">
-                                    <option value="ansiedad">Ansiedad y EstrÃ©s (1h 30min - 60€)</option>
+                                    <option value="ansiedad">Ansiedad y Estrés (1h 30min - 60€)</option>
                                     <option value="hormonal">Desajustes Hormonales Femeninos (1h 30min - 60€)</option>
-                                    <option value="muscular">Lesiones Musculares y Dolor (1h - 50 €)</option>
+                                    <option value="muscular">Lesiones Musculares y Dolor (1h - 60 €)</option>
                                     <option value="general">Consulta General / Bienestar (1h - 60€)</option>
                                 </select>
                             </div>
                         </div>
 
                         <div>
-                            <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Comentarios o sÃ­ntomas principales (Opcional)</label>
+                            <label class="block text-xs uppercase tracking-wider text-zen-100/80 mb-2">Comentarios o síntomas principales (Opcional)</label>
                             <textarea id="message" rows="4" class="w-full bg-zen-900 border border-white/10 rounded-xl px-4 py-3.5 text-zen-100 focus:outline-none focus:border-zen-jade transition-colors text-sm resize-none" placeholder="Cuéntanos brevemente qué te motivó a solicitar la sesión..."></textarea>
                         </div>
 
@@ -430,7 +430,7 @@
                         <div class="w-12 h-12 rounded-full bg-zen-jade/20 text-zen-jade flex items-center justify-center mx-auto mb-3">
                             <i data-lucide="check" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="font-serif text-xl text-zen-100 mb-2">Â¡Solicitud enviada con éxito!</h3>
+                        <h3 class="font-serif text-xl text-zen-100 mb-2">¡Solicitud enviada con éxito!</h3>
                         <p class="text-zen-100/70 text-sm font-light">Gracias por confiar en mí. Contactaré contigo en menos de 24 horas para confirmar el horario definitivo de tu sesión</p>
                     </div>
                 </div>
@@ -452,18 +452,6 @@
                     Especialista en medicina tradicional y bienestar consciente. Diseñado para devolver al cuerpo su equilibrio físico y mental natural.
                 </p>
             </div>
-
-            <div>
-                <h4 class="font-serif text-zen-100 mb-4 text-sm uppercase tracking-wider">Enlaces RÃ¡pidos</h4>
-                <ul class="space-y-2 text-sm text-zen-100/60 font-light">
-                    <li><a href="#tratamientos" class="hover:text-zen-jade transition-colors">Tratamientos</a></li>
-                    <li><a href="#tarifas" class="hover:text-zen-jade transition-colors">Tarifas (50â‚¬)</a></li>
-                    <li><a href="#sobre-mi" class="hover:text-zen-jade transition-colors">Nuestro Enfoque</a></li>
-                    <li><a href="#faqs" class="hover:text-zen-jade transition-colors">Preguntas Frecuentes</a></li>
-                </ul>
-            </div>
-
-            <div>
                 <h4 class="font-serif text-zen-100 mb-4 text-sm uppercase tracking-wider">Horario y Contacto</h4>
                 <ul class="space-y-2 text-sm text-zen-100/60 font-light">
                     <li>Lunes a Viernes: 16:00 - 22:00</li>
